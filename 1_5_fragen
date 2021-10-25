@@ -35,3 +35,6 @@ Das alles um lese- Schreiberechte zu gewähren die unseren Fortschritt auf der l
 >Welche Rolle spielt die Zeitsynchronisation bei der Sicherheit eines Netzwerkes?
 Nennen Sie Dinge, die schief gehen können, wenn keine gemeinsame Systemzeit zwischen
 den Systemen vorliegt.
+>Bei Auswertung von Protokolldateien. Für Autorisierung und Authentifizierung, Gültigkeit von Tokens etc.
+- Konflikte bei Replikation. ---> Welche Datei ist die aktuellste?!
+- Gültigkeit bzw. Ablauf von Zertifikaten/Schlüsseln etc.
