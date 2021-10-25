@@ -28,9 +28,8 @@ Mit ssh-keygen kann ein neuer Eintrag generiert werden, mit dem sich ein Nutzer 
 >Warum war es nötig, die Benutzerrechte des Home Verzeichnisses von lab99 zu
 ändern und welche Kommandos stehen dazu zur Verfügung?
 
-- [ ] WIP
-
-Lese- Schreiberechte um Fortschritt zu analysieren.
+>Um dem Benutzer die rechte 'Read', 'Write', 'Execute' zu gewähren. Anfangs wird user anhand von useradd -u 8000 -g lab99 -G sudo -m erstellt. '-m' legt hierbei das home verzeichnis an. Anschließend werden mit chmod 700 die benötigten rechte vergeben!
+Das alles um lese- Schreiberechte zu gewähren die unseren Fortschritt auf der lab99 Domain analysieren und anzeigen.
 
 ## Frage 1.5
 >Welche Rolle spielt die Zeitsynchronisation bei der Sicherheit eines Netzwerkes?
