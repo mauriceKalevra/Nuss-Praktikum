@@ -1,3 +1,4 @@
+Team10 - Moritz Rupp, Viktor Brandl
 # 1.5 Kontrollfrage
 
 Bearbeitet von Moritz Rupp und Victor Brandl
