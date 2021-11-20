@@ -1,0 +1,29 @@
+# Team10 - Moritz Rupp, Viktor Brandl 
+# Kontrollfragen
+Bearbeitet von Moritz Rupp und Victor Brandl
+
+## Frage 3.1
+> Worin unterscheiden sich die INPUT,FORWARD und OUTPUT Chain?
+
+
+## Frage 3.2
+> Wie können Sie eine Regel angeben, die nur für einen einzigen Host gilt?
+
+
+## Frage 3.3
+> Wie können Sie eine Regel angeben, die für ein ganzes Netzwerk gilt?
+
+
+## Frage 3.4
+> Welche Informationen werden benötigt, um eine Regel eindeutig zu bestimmen(5-Tupel)?
+
+
+## Frage 3.5
+> Wie stellen Sie fest, ob ihre Regeln unerwünscht viel Verkehr blocken und welcherVerkehr dies ist? Wie haben Sie geprüft, ob ihre Clients ihren Nameserver erreichen können?
+
+
+## Frage 3.6
+> Warum funktioniert der ping Befehl, ohne dass Sie jemals eine Regel dafürangelegt hatten?  
+
+## Frage 3.7
+> Weshalb ist es ausreichend, eine Regel für den Verbindungsaufbau von IhrenVMs zum Webserver auflab99zu erstellen? Weshalb ist keine Regel für die Rückrichtungnötig?
