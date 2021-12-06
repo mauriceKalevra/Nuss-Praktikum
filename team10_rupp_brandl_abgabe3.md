@@ -36,6 +36,4 @@ Da der Ping-Befehl das ICMP-Protokoll verwendet. Dieses Läuft über die dritte 
 ## Frage 3.7
 > Weshalb ist es ausreichend, eine Regel für den Verbindungsaufbau von Ihren VMs zum Webserver auf lab99 zu erstellen? Weshalb ist keine Regel für die Rückrichtung nötig?  
 
-- [ ] WIP  
-Zur Ansicht des Servers im Browser ist nur eine HTTP-Verbindung notwendig.
 Nachdem der Verbindungsaufbau von VMs zu Webserver steht, reicht dieser Tunnel für allen nachfolgenden Traffic!
