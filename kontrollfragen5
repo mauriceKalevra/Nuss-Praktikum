@@ -1,0 +1,41 @@
+# Frage 5.1
+>Bei vielen Anwendungen spricht man von Server und Client. Wie heißen die
+jeweiligen Pendants im Domain Name System?
+
+**Nameserver** und **Client**
+
+# Frage 5.2
+>Wo wird der Client unter Linux konfiguriert?
+
+unter /etc/resolv.conf
+
+# Frage 5.3
+>Welche Funktionen hat openssl? (Hinweis: Es sind viel mehr als es auf den
+ersten Blick erscheint.)
+
+Um die Frage sinnvoll zu beantworten wird abgekürzt auf:
+
+- Impelementierung von Netzwerkprotokollen
+- Implementierung kryptographischer Verfahren
+- Verwaltung von Zertifikaten
+
+<!-- To-Do evtl nicht vollstänndig-- >
+
+OpenSSL ist auch auf den ersten Blick umfangreich. Eine genauere Beschreibung sprengt den Rahmen.
+
+# Frage 5.4
+> Welche Arten von Ressource Records kennen Sie und was für Rückschlüsse lassen sich anhand dieser auf das Gesamtsystem ziehen?
+
+- **A** Ipv4-Adresse
+- **AAAA** Ipv6-Adresse
+- **HINFO** CPU und OS des Hosts
+- **MX** Info unter welcher Domain ein Mailserver zu erreichen ist.
+- **CNAME** Name eines Alias
+- **NS** Autorativer Name-Server
+- **PTR** Pointer zu einem anderen Teil des Domain Name Space
+- **SOA** Informatonen zur DNS-Zone.
+- **CERT** Public Key-Zertifikate
+- **TXT** Zusätzliche Informationen. Häufig um weitere Dienste zu Identifizieren.
+
+<!-- Schlüsse auf das Gesamtsystem Hinzufügen-->
+<!--SRV Rekord-->
