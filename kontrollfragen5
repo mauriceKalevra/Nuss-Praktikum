@@ -39,3 +39,11 @@ OpenSSL ist auch auf den ersten Blick umfangreich. Eine genauere Beschreibung sp
 
 <!-- Schlüsse auf das Gesamtsystem Hinzufügen-->
 <!--SRV Rekord-->
+
+# Frage 5.5
+>Was ist ein Zonentransfer und weshalb kann er zur Erkundung eines Systems
+interessant sein (Thema reconnaissance beim Pentest)?
+
+Beim Zonentransfer überträgt, ein DNS-Server eine Zone mittels AXFR, auf einen anderen. Dieß ist z.B. für den Ausfallschutz nützlich.
+Mittels eines Zonentransfers können häufig Informationen zur Netzwerkinfrastruktur gesammelt werden ohne das IDS oder IPS auszulösen,
+da der DNS-Traffic oft nicht überwacht wird.
