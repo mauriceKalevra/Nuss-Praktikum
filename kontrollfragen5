@@ -13,15 +13,12 @@ unter /etc/resolv.conf
 >Welche Funktionen hat openssl? (Hinweis: Es sind viel mehr als es auf den
 ersten Blick erscheint.)
 
-Um die Frage sinnvoll zu beantworten wird abgekürzt auf:
-
-- Impelementierung von Netzwerkprotokollen
-- Implementierung kryptographischer Verfahren
-- Verwaltung von Zertifikaten
-
-<!-- To-Do evtl nicht vollstänndig-- >
-
-OpenSSL ist auch auf den ersten Blick umfangreich. Eine genauere Beschreibung sprengt den Rahmen.
+- Erstellung und Management von Public keys, Private keys und dazugehörigen parametern.
+- Erstellung von X.509 Zertifikaten, CSRs und CRLs
+- Berechnung von MD 4,5 etc. 
+- Verschlüsselung und Entschschlüsselung von chiffren
+- SSL/TLS Client und Server Tests
+- Zeitstempel requests, Generierung und Verifizierung
 
 # Frage 5.4
 > Welche Arten von Ressource Records kennen Sie und was für Rückschlüsse lassen sich anhand dieser auf das Gesamtsystem ziehen?
