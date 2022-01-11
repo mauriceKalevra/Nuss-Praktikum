@@ -1,3 +1,5 @@
+Team 10 - Moritz Rupp, Viktor Brandl
+
 # Frage 5.1
 >Bei vielen Anwendungen spricht man von Server und Client. Wie heißen die
 jeweiligen Pendants im Domain Name System?
@@ -51,26 +53,28 @@ TCP-Connect-Scan und beim TCP-Syn-Scan? Kennen Sie weitere Arten mit nmap zu sca
   
   
 Nmap versucht eine TCP Verbinding zu angegebenen Ip Adressen bzw. Port anhand eines SYN Packets aufzubauen. Folgt keine Antwort ist der Port Firewalled.
-Ist die Antowort an ein RST Packet ist der Port zu. Ist es ein ACK(SYN/ACK) Packet ist der Port offen.
-Der TCP-Connect Scan stellt eine komplette Verbindung mit dem Zielhost her wobei TCP-SYN Scan nur eine teilweisige Verbindung aufbaut.
-Beispiel TCP-SYN SCAN:
-SYN --->  
-         SYN/ACK <----- 
-RST --->
+Ist die Antwort ein RST Packet ist der Port zu. Ist es ein ACK(SYN/ACK) Packet ist der Port offen.  
 
-Beispiel TCP-Connect Scan:
-SYN ---->
-        SYN/ACK <------
-ACK ---->
-        <------ DATA
-RST ---->
-Weitere Arten mit nmap zu scannen:
-- UDP Scan
-- Idle Scan
-- RPC Scan
-- FIN Scan
-- Ping Scan
+Der TCP-Connect Scan stellt eine komplette Verbindung mit dem Zielhost her, wobei der TCP-SYN Scan nur eine teilweisige Verbindung aufbaut.  
 
+Beispiel TCP-SYN SCAN:  
+SYN --->    
+         SYN/ACK <-----   
+RST --->  
+  
+Beispiel TCP-Connect Scan:  
+SYN ---->  
+        SYN/ACK <------  
+ACK ---->  
+        <------ DATA  
+RST ---->  
+Weitere Arten mit nmap zu scannen:  
+- UDP Scan  
+- Idle Scan  
+- RPC Scan  
+- FIN Scan  
+- Ping Scan  
+  
 # Frage 5.7
 >Im Praktikum haben Sie sich vor allem mit TCP beschäftigt. Viele der Netzwer-
 kinfrastrukturdienste sind jedoch keine TCP Dienste. Worauf sollten Sie bei der Erkundung
