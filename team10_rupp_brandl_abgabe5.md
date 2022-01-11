@@ -17,7 +17,7 @@ ersten Blick erscheint.)
 
 - Erstellung und Management von Public keys, Private keys und dazugehörigen parametern.
 - Erstellung von X.509 Zertifikaten, CSRs und CRLs
-- Berechnung von MD 4,5 etc. 
+- Hashfunktionen 
 - Verschlüsselung und Entschschlüsselung von chiffren
 - SSL/TLS Client und Server Tests
 - Zeitstempel requests, Generierung und Verifizierung
