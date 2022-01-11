@@ -46,6 +46,10 @@ Mittels eines Zonentransfers können häufig Informationen zur Netzwerkinfrastru
 da der DNS-Traffic oft nicht überwacht wird.
 
 # Frage 5.6
+>Wie läuft ein TCP Scan bei nmap technisch ab? Wo liegt der Unterschied beim
+TCP-Connect-Scan und beim TCP-Syn-Scan? Kennen Sie weitere Arten mit nmap zu scannen?
+  
+  
 Nmap versucht eine TCP Verbinding zu angegebenen Ip Adressen bzw. Port anhand eines SYN Packets aufzubauen. Folgt keine Antwort ist der Port Firewalled.
 Ist die Antowort an ein RST Packet ist der Port zu. Ist es ein ACK(SYN/ACK) Packet ist der Port offen.
 Der TCP-Connect Scan stellt eine komplette Verbindung mit dem Zielhost her wobei TCP-SYN Scan nur eine teilweisige Verbindung aufbaut.
@@ -60,6 +64,7 @@ SYN ---->
 ACK ---->
         <------ DATA
 RST ---->
+Weitere Arten mit nmap zu scannen:
 - UDP Scan
 - Idle Scan
 - RPC Scan
