@@ -44,3 +44,10 @@ interessant sein (Thema reconnaissance beim Pentest)?
 Beim Zonentransfer überträgt, ein DNS-Server eine Zone mittels AXFR, auf einen anderen. Dieß ist z.B. für den Ausfallschutz nützlich.
 Mittels eines Zonentransfers können häufig Informationen zur Netzwerkinfrastruktur gesammelt werden ohne das IDS oder IPS auszulösen,
 da der DNS-Traffic oft nicht überwacht wird.
+
+# Frage 5.7
+>Im Praktikum haben Sie sich vor allem mit TCP beschäftigt. Viele der Netzwer-
+kinfrastrukturdienste sind jedoch keine TCP Dienste. Worauf sollten Sie bei der Erkundung
+eines Systems ebenso achten?
+
+Ebenso sollte darauf geachtet werden, ob Dienste über UDP laufen.
