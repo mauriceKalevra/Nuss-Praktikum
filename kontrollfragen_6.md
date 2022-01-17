@@ -33,3 +33,8 @@ Es gibt mehrere Möglichkeiten dies zu realisieren! Durch setuid, einem Port Red
 Setuid setzt bzw. ändert die userkennung bei Ausführung eines Dienstes/Datei.  
 Ein port redirect der in etwa folgende Syntax hat: iptables -A PREROUTING -t nat -i eth0 -p tcp --dport [port] -j REDIRECT --to-port [port]  
 Setcap setzt mit Parametern -n [rootuid] root Datei Rechte.
+
+## Frage 6.6
+>Wäre eine Aktivierung von rkhunter gleich nach der Installation hilfreich gewesen? Wie hätte Ihnen dies das Leben erleichtert?
+
+Es hätte im Rahmen von Aufgabe Fünf dabei geholfen die neuen User, Veränderungen im Dateisystem und den neuen TCP-Dienst zu finden.
