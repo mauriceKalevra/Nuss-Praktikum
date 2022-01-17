@@ -45,4 +45,4 @@ entsprechenden Rechten rkhunter austricksen?
 
 Auch hier gibt es mehrere Möglichkeiten dies zu realisieren.  
 Man könnte anhand von 'touch' die timestamps von Dateien auf ein jeweiliges Datum zurücksetzen.  
-Auch könnte man in die rkhunter.config Datei entsprechend manipulieren.
+Mit Rootrechten kann rkhunter.conf entsprechend manipuliert werden.
