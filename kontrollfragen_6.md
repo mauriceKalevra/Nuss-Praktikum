@@ -37,4 +37,4 @@ Setcap setzt mit Parametern -n [rootuid] root Datei Rechte.
 ## Frage 6.6
 >Wäre eine Aktivierung von rkhunter gleich nach der Installation hilfreich gewesen? Wie hätte Ihnen dies das Leben erleichtert?
 
-Es hätte im Rahmen von Aufgabe Fünf dabei geholfen die neuen User, Veränderungen im Dateisystem und den neuen TCP-Dienst zu finden.
+Es hätte im Rahmen von einigen Aufgaben dabei geholfen die neuen User, Veränderungen im Dateisystem und den neuen TCP-Dienst zu finden.
