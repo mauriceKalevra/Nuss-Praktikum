@@ -7,11 +7,10 @@ Der Nutzer entspricht dem Root-User und kann daher alles.
 >Weshalb war das Finden des Passworts mit john so schnell möglich? Wie könnte man diese Zeit deutlich verlängern?
 
 Die Informationsgehalt war zu gering bzw. folgte einem einfachen Muster.  
-Man könnte Maßnahmen zur Passwortsicherheit anwenden.
-
+Man könnte Maßnahmen zur Passwortsicherheit anwenden.  
 - keinem Muster Folgend
 - lange Passwörter
-- Groß- und Kleinbuchstaben, Sonderzeichen und Zahlen verwenden
+- Groß- und Kleinbuchstaben, Sonderzeichen und Zahlen verwenden  
 etc.
 
 ## Frage 6.3
