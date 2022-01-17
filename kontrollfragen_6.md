@@ -30,7 +30,7 @@ Um die Meldung zu beseitigen reicht es eine passwd Datei, mit Eintrag für sysba
 bewerkstelligen?
 
 Es gibt mehrere Möglichkeiten dies zu realisieren! Durch setuid, einem Port Redirect, setcap oder einem lokalem ssh Tunnel.  
-Setuid setzt bzw. ändert die userkennung bei Ausführung eines Dienstes/Datei.  
+Setuid setzt bzw. ändert die userkennung bei Ausführung eines Dienstes/Datei.    
 Ein port redirect der in etwa folgende Syntax hat: iptables -A PREROUTING -t nat -i eth0 -p tcp --dport [port] -j REDIRECT --to-port [port]  
 Setcap setzt mit Parametern -n [rootuid] root Datei Rechte.
 
@@ -38,3 +38,11 @@ Setcap setzt mit Parametern -n [rootuid] root Datei Rechte.
 >Wäre eine Aktivierung von rkhunter gleich nach der Installation hilfreich gewesen? Wie hätte Ihnen dies das Leben erleichtert?
 
 Es hätte im Rahmen von einigen Aufgaben dabei geholfen die neuen User, Veränderungen im Dateisystem und den neuen TCP-Dienst zu finden.
+
+## Frage 6.7
+>rkhunter findet Veränderungen und zeigt sie an. Wie könnte ein Benutzer mit
+entsprechenden Rechten rkhunter austricksen?
+
+Auch hier gibt es mehrere Möglichkeiten dies zu realisieren.  
+Man könnte anhand von 'touch' die timestamps von Dateien auf ein jeweiliges Datum zurücksetzen.  
+Auch könnte man in die rkhunter.config Datei entsprechend manipulieren.
