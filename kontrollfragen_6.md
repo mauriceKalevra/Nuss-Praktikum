@@ -15,3 +15,11 @@ etc.
 
 ## Frage 6.3
 >Was befindet sich in /proc und wofür werden die Inhalte benötigt?
+
+/proc ist ein Pseudo-Dateisystem und stellt ein Interface für Kernel-Daten-Strukturen.
+
+## Frage 6.4
+>Warum sehen Sie nach der Einrichtung der chroot Umgebung die Meldung I have no Name!? Wie konnte man diese Meldung beseitigen?
+
+Weil das System der UID keinen Nutzernamen zuordnen kann.  
+Um die Meldung zu beseitigen reicht es eine passwd Datei, mit Eintrag für sysbar, anzulegen.
